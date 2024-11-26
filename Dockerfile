@@ -1,8 +1,8 @@
 FROM python:3
 
-WORKDIR /data
+WORKDIR /home
 
-RUN pip install django==3.2
+RUN pip install django==4.2.16
 
 COPY . .
 
